@@ -26,27 +26,33 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('loan') }}" class="nav-link" aria-current="page">
+                    <a href="{{ route('loan_list.index') }}" class="nav-link" aria-current="page">
                         <i class="bi bi-bank fs-4 me-3"></i>
                         <span class="fs-5">Loan</span>
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('payment') }}" class="nav-link" aria-current="page">
+                    <a href="{{ route('payments.index') }}" class="nav-link" aria-current="page">
                         <i class="bi bi-cash fs-4 me-3"></i>
                         <span class="fs-5">Payment</span>
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('transaction') }}" class="nav-link" aria-current="page">
-                        <i class="bi bi-coin fs-4 me-3"></i>
-                        <span class="fs-5">Transaction</span>
+                    <a href="{{ route('borrowers.index') }}" class="nav-link" aria-current="page">
+                        <i class="bi bi-people fs-4 me-3"></i>
+                        <span class="fs-5">Borrower</span>
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('client') }}" class="nav-link" aria-current="page">
-                        <i class="bi bi-people fs-4 me-3"></i>
-                        <span class="fs-5">Client</span>
+                    <a href="{{ route('loan_plan.index') }}" class="nav-link" aria-current="page">
+                        <i class="bi bi-bar-chart-line fs-4 me-3"></i>
+                        <span class="fs-5">Loan Plans</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('loan_type.index') }}" class="nav-link" aria-current="page">
+                        <i class="bi bi-grid-3x3-gap fs-4 me-3"></i>
+                        <span class="fs-5">Loan Types</span>
                     </a>
                 </li>
             </ul>
